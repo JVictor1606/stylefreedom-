@@ -1,0 +1,91 @@
+/*:root{
+    --cor-de-fundo:#E5E5E5;
+    --cor-da-letra: #000000;
+}
+/*
+body{
+    background-color: var(--cor-de-fundo);
+}
+
+.actions_top {
+    display: flex;
+    flex-direction:row;
+}
+
+.link{
+    color: var(--cor-da-letra);
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container {
+    height: 8vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 20px;
+    box-shadow: 1px 10px 10px rgba(56, 56, 56, 0.37);
+}
+
+.header{
+    background-color: rgb(238, 236, 236);
+}
+*/
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+ul{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    background: #1D1D1F;
+    list-style-type:none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    justify-content: center;    
+}
+
+li{
+    float: left;
+}
+
+li a {
+    display: inline-block;
+    color:white;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: center;
+}
+
+li a:hover{
+    background: rgb(41, 41, 41);
+}
+
+.roupa h1 {
+    text-align: center;
+    margin-top: 1em ;
+    margin-left: 3em;
+}
+
+.camisa_container
+{
+    display: flex;
+    justify-content: center;
+    max-width: 15%;
+    max-height: 15%;
+    border: 3px solid #0d0d38;
+    border-radius: 5px;
+}
+
+.camisas{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+    box-shadow: 1px 10px 10px rgba(56, 56, 56, 0.37);
+
+}
