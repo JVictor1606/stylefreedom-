@@ -54,7 +54,7 @@ li{
 
 li a {
     display: inline-block;
-    color:white;
+    color:rgb(192, 189, 189);
     padding: 14px 16px;
     text-decoration: none;
     text-align: center;
@@ -64,28 +64,16 @@ li a:hover{
     background: rgb(41, 41, 41);
 }
 
-.roupa h1 {
-    text-align: center;
-    margin-top: 1em ;
-    margin-left: 3em;
+.blusa {
+    margin-left: 40%;
+    width: 20%;
+    height: 20%;
 }
 
-.camisa_container
-{
+.camisa {
+    font-family: bold;
+    margin-left: 47%;
     display: flex;
-    justify-content: center;
-    max-width: 15%;
-    max-height: 15%;
-    border: 3px solid #0d0d38;
-    border-radius: 5px;
-}
-
-.camisas{
-    display: flex;
-    text-align: center;
-    justify-content: center;
     align-items: center;
-
-    box-shadow: 1px 10px 10px rgba(56, 56, 56, 0.37);
-
+    font-size: 25px;
 }
